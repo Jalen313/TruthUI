@@ -15,6 +15,7 @@ struct ContentView: View {
         "Chapter5"
     ]
     
+    
     @State var index = 0
             
             
@@ -29,11 +30,25 @@ struct ContentView: View {
                     VStack {
                         Spacer()
                         
+                        if index == 0 {
+                            Image(storySlides[index])
+                                .resizable()
+                        } else if index == 1 {
+                            Chapter2View()
+                        } else if index == 2 {
+                            Image(storySlides[index])
+                                .resizable()
+                        } else if index == 3 {
+                            Image(storySlides[index])
+                                .resizable()
+                        } else if index == 4 {
+                            Image(storySlides[index])
+                                .resizable()
+                        }
                         
                         
-                        
-                        Image(storySlides[index])
-                            .resizable()
+//                        Image(storySlides[index])
+//                            .resizable()
                         HStack {
                             Button(action: {
                                 if index > 0 {
