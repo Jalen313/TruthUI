@@ -16,6 +16,8 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		C4A9B5002B06B4B30075AB53 /* function.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9B4FF2B06B4B30075AB53 /* function.swift */; };
+		C4A9B5022B06B4DE0075AB53 /* sheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9B5012B06B4DE0075AB53 /* sheetView.swift */; };
 		69BC89EB2B05875000947366 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC89EA2B05875000947366 /* Screen.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		C4A9B4FF2B06B4B30075AB53 /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		C4A9B5012B06B4DE0075AB53 /* sheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetView.swift; sourceTree = "<group>"; };
 		69BC89EA2B05875000947366 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				C4A9B4FF2B06B4B30075AB53 /* function.swift */,
+				C4A9B5012B06B4DE0075AB53 /* sheetView.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -199,9 +205,11 @@
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				C4A9B5022B06B4DE0075AB53 /* sheetView.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
+				C4A9B5002B06B4B30075AB53 /* function.swift in Sources */,
 				69BC89EB2B05875000947366 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
