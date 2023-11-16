@@ -39,8 +39,7 @@ struct ContentView: View {
                             Image(storySlides[index])
                                 .resizable()
                         } else if index == 3 {
-                            Image(storySlides[index])
-                                .resizable()
+                            Chapter4View()
                         } else if index == 4 {
                             Image(storySlides[index])
                                 .resizable()
